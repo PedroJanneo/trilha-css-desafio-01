@@ -68,7 +68,7 @@ h2 {
   font-size: 20px;
 }
 
-
+/* oq tem no curso */
 #course-content {
   background-color: #000;
   width: 100%;
@@ -92,22 +92,25 @@ p {
 
 .module {
   margin-top: 10px;
-  width: 80%;
+  width:535px;
+  height: 51px;
   margin: 0 auto;
   align-items: center;
   border: solid 1px #33a8db;
   background-color: #252525;
   border-radius: 90px;
   line-height: 40px;
-  margin: 40px;
+  margin: 40px 550px;
+  padding: 16px 127px 10px;
 }
 span {
   color: #33a8db;
 }
 
-/* oq tem no curso */
+/* foto fixa*/
+
 #transform-world {
-  background-image: url("../images/woman-code.png");
+  background: url("../images/woman-code.png"),linear-gradient(#000000, #11394b, #000000);;
   height: 800px;
   width: 100%;
   background-attachment: fixed;
@@ -122,10 +125,22 @@ h2 {
   font-size: 2em;
 }
 
-/* foto fixa*/
+
+
 #transform-world p {
-  padding-top: 60px;
+  font-size: 40px;
+  text-transform: lowercase;
+  padding: 400px 200px;
+  text-shadow: 5px 5px 5px #33a8db;
+  color: white;
+  font-weight: 900;
+  line-height: 1.2em;
+  text-align: left;
+
 }
+
+
+
 
 /*feedbacks*/
 
@@ -136,13 +151,24 @@ h2 {
   text-align: center;
 }
 
+#professional-challenges h2 {
+  padding: 100px 600px;
+}
+
+#professional-challenges p{
+  padding: 20px 470px 0px;
+  padding-bottom: 0;
+}
+
+
 /*footer*/
 
 footer {
   background-color: #000000;
   text-align: center;
   width: 100%;
-  height: 170px;
+  height: 180px;
+  padding-top: 30px;
 }
 
 footer img {
